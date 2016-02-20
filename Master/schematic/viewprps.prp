@@ -1,6 +1,6 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 19 22:11:55 2016 " )
+ (Created " Feb 20 00:44:52 2016 " )
  (Cell  "\\Master\\"
   (View  "schematic"
    (Inst "\\I4\\"
@@ -48,6 +48,15 @@
 	 ("\\pin#\\" "6")
 	 ("XY" "(-1.312500,1.000000)")
 	))
+   (Inst "\\I16\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(8.500000,-5.687500)")
+	))
    (Inst "\\I9\\"
 	(Pr
 	 ("partName" "MUX")
@@ -93,6 +102,15 @@
 	 ("\\pin#\\" "6")
 	 ("XY" "(-6.375000,0.750000)")
 	))
+   (Inst "\\I17\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(5.625000,-5.687500)")
+	))
    (Inst "\\I14\\"
 	(Pr
 	 ("partName" "INV")
@@ -137,6 +155,15 @@
 	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
 	 ("\\pin#\\" "4")
 	 ("XY" "(-9.250000,0.750000)")
+	))
+   (Inst "\\I15\\"
+	(Pr
+	 ("partName" "QAUSI_CLK_SUM_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Sum\" \"A\" \"B\" \"Cin\" \"GND\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 23:27:17 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(12.625000,-5.687500)")
 	))
   )
  )
