@@ -1,0 +1,35 @@
+(PropertyFile "1.0"
+ (Creator " HDL Direct ver ver-date" )
+ (Created " Feb 19 22:04:44 2016 " )
+ (Cell  "\\MUX\\"
+  (View  "schematic"
+   (Inst "\\I5\\"
+	(Pr
+	 ("partName" "TGATE")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Sel1\" \"Sel2\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 20:24:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(-1.125000,-1.687500)")
+	))
+   (Inst "\\I4\\"
+	(Pr
+	 ("partName" "TGATE")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Sel1\" \"Sel2\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 20:24:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(-1.125000,0.625000)")
+	))
+   (Inst "\\I3\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-2.875000,-0.500000)")
+	))
+  )
+ )
+)
