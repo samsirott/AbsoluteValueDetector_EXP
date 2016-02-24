@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      lakshmip
+LoginName                      sirott
 HostName                       eeapps03.seas.ucla.edu
-ProcessIdentifier              27339
-ProcessCreationTime_UTC        1456279719
-ProcessCreationTime_Readable   Tue Feb 23 18:08:39 2016 PST
+ProcessIdentifier              7950
+ProcessCreationTime_UTC        1456298285
+ProcessCreationTime_Readable   Tue Feb 23 23:18:05 2016 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/AbsoluteValueDetector/MIRROR_CARRYOUT_ONLY/schematic/sch.oa.cdslck
-TimeEditLocked                 Tue Feb 23 18:09:32 2016 PST
+FilePathUsedToEditLock         /w/home.01/ee/ugrad/sirott/ee115c/AbsoluteValueDetector/MIRROR_CARRYOUT_ONLY/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Tue Feb 23 23:43:46 2016 PST

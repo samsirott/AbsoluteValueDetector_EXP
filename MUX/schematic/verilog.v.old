@@ -13,8 +13,8 @@ wire Vdd;
 wire Sel;
 wire In0;
 wire In1;
-wire net010;
 wire GND;
+wire net010;
 wire Out;
 
 TGATE    

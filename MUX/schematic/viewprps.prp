@@ -1,6 +1,6 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 19 22:04:44 2016 " )
+ (Created " Feb 23 23:44:46 2016 " )
  (Cell  "\\MUX\\"
   (View  "schematic"
    (Inst "\\I5\\"
@@ -28,7 +28,7 @@
 	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
 	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
 	 ("\\pin#\\" "4")
-	 ("XY" "(-2.875000,-0.500000)")
+	 ("XY" "(-2.375000,-1.000000)")
 	))
   )
  )

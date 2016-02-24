@@ -1,6 +1,6 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 19 23:41:42 2016 " )
+ (Created " Feb 24 03:09:17 2016 " )
  (Cell  "\\TestSUM\\"
   (View  "schematic"
    (Inst "\\I0\\"

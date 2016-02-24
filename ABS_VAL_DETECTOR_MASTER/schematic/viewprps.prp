@@ -1,0 +1,188 @@
+(PropertyFile "1.0"
+ (Creator " HDL Direct ver ver-date" )
+ (Created " Feb 24 02:54:11 2016 " )
+ (Cell  "\\ABS_VAL_DETECTOR_MASTER\\"
+  (View  "schematic"
+   (Inst "\\I19\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(6.000000,-9.500000)")
+	))
+   (Inst "\\I18\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(6.000000,-6.500000)")
+	))
+   (Inst "\\I17\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(6.000000,-3.500000)")
+	))
+   (Inst "\\I16\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(6.000000,-0.500000)")
+	))
+   (Inst "\\I15\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,2.500000)")
+	))
+   (Inst "\\I14\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-12.500000)")
+	))
+   (Inst "\\I11\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-6.500000)")
+	))
+   (Inst "\\I10\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-9.500000)")
+	))
+   (Inst "\\I5\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-3.500000)")
+	))
+   (Inst "\\I0\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-0.500000)")
+	))
+   (Inst "\\I12\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(1.000000,-12.500000)")
+	))
+   (Inst "\\I8\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(1.000000,-9.500000)")
+	))
+   (Inst "\\I6\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(1.000000,-6.500000)")
+	))
+   (Inst "\\I3\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(1.000000,-3.500000)")
+	))
+   (Inst "\\I1\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:54:23 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(1.000000,-0.500000)")
+	))
+   (Inst "\\I2\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-0.500000)")
+	))
+   (Inst "\\I13\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-12.500000)")
+	))
+   (Inst "\\I9\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-9.500000)")
+	))
+   (Inst "\\I7\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-6.500000)")
+	))
+   (Inst "\\I4\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-3.500000)")
+	))
+  )
+ )
+)
