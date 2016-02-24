@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lakshmip
+HostName                       eeapps03.seas.ucla.edu
+ProcessIdentifier              27339
+ProcessCreationTime_UTC        1456279719
+ProcessCreationTime_Readable   Tue Feb 23 18:08:39 2016 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/AbsoluteValueDetector/MIRROR_CARRYOUT_ONLY/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Feb 23 18:09:32 2016 PST

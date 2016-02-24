@@ -1,7 +1,7 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 19 21:37:06 2016 " )
- (Cell  "\\MIRROR_ADDER\\"
+ (Created " Feb 23 18:10:21 2016 " )
+ (Cell  "\\MIRROR_CARRYOUT_ONLY\\"
   (View  "schematic"
    (Inst "\\NM4\\"
 	(Pr
@@ -422,15 +422,6 @@
 	 ("rsc" "")
 	 ("dtemp" "")
 	 ("pasUpdateParamList" "l")
-	))
-   (Inst "\\I0\\"
-	(Pr
-	 ("partName" "INV")
-	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
-	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
-	 ("\\pin#\\" "4")
-	 ("XY" "(1.312500,0.000000)")
 	))
   )
  )
