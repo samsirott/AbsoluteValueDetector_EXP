@@ -6,21 +6,11 @@ module MasterTB (
 wire \gnd! ;
 wire [5:0] net07;
 wire net4;
-wire net01;
-wire net08;
 wire [4:0] net6;
-wire net09;
 wire net3;
-wire net011;
 
 Master    
  I0  ( .Vdd( net3 ), .X( net07[0:5] ), .Th( net6[0:4] ), .GND( \gnd!  ), .Out( net4 ) );
-
-vdc    
- V6  ( .PLUS( net01 ), .MINUS( net08 ) );
-
-vdc    
- V5  ( .PLUS( net011 ), .MINUS( net09 ) );
 
 vdc    
  V0  ( .PLUS( net3 ), .MINUS( \gnd!  ) );
