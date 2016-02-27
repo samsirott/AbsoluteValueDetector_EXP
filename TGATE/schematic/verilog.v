@@ -10,9 +10,9 @@ output  Out;
 input  SelP;
 input  SelN;
 wire Vdd;
-wire In;
 wire SelN;
 wire SelP;
+wire In;
 wire GND;
 wire Out;
 
