@@ -20,12 +20,12 @@ input  X5;
 wire VDD;
 wire net34;
 wire X2;
+wire net39;
 wire net36;
 wire net043;
-wire net39;
-wire T0;
 wire T1;
 wire OUT;
+wire T0;
 wire GND;
 wire net41;
 wire X0;
@@ -40,46 +40,16 @@ wire net43;
 wire net33;
 wire net44;
 wire net045;
-wire X1;
 wire X3;
+wire X1;
 wire X4;
 wire net38;
 wire net35;
-wire X5;
 wire net044;
+wire X5;
 wire T3;
 wire net42;
 wire net45;
-
-INV    
- I19  ( .Vdd( VDD ), .In( net43 ), .GND( GND ), .Out( net043 ) );
-
-INV    
- I18  ( .Vdd( VDD ), .In( net44 ), .GND( GND ), .Out( net044 ) );
-
-INV    
- I17  ( .Vdd( VDD ), .In( net45 ), .GND( GND ), .Out( net045 ) );
-
-INV    
- I16  ( .Vdd( VDD ), .In( net46 ), .GND( GND ), .Out( net046 ) );
-
-INV    
- I15  ( .Vdd( VDD ), .In( X5 ), .GND( GND ), .Out( net51 ) );
-
-INV    
- I14  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
-
-INV    
- I11  ( .Vdd( VDD ), .In( X2 ), .GND( GND ), .Out( net35 ) );
-
-INV    
- I10  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
-
-INV    
- I5  ( .Vdd( VDD ), .In( X1 ), .GND( GND ), .Out( net36 ) );
-
-INV    
- I0  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
 
 MUX    
  I12  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ), .SelBar( net51 ) );
@@ -110,6 +80,36 @@ MIRROR_CARRYOUT_ONLY_STG8
 
 MIRROR_CARRYOUT_ONLY_STG10    
  I24  ( .Cin( net044 ), .Vdd( VDD ), .X_i( net39 ), .GND( GND ), .Th_i( T3 ), .Out( net43 ) );
+
+INV_STG2    
+ I26  ( .Vdd( VDD ), .In( X5 ), .GND( GND ), .Out( net51 ) );
+
+INV_NON_CRITICAL_PATH    
+ I31  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
+
+INV_NON_CRITICAL_PATH    
+ I30  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
+
+INV_NON_CRITICAL_PATH    
+ I29  ( .Vdd( VDD ), .In( X2 ), .GND( GND ), .Out( net35 ) );
+
+INV_NON_CRITICAL_PATH    
+ I28  ( .Vdd( VDD ), .In( X1 ), .GND( GND ), .Out( net36 ) );
+
+INV_NON_CRITICAL_PATH    
+ I27  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
+
+INV_STG5    
+ I32  ( .Vdd( VDD ), .In( net46 ), .GND( GND ), .Out( net046 ) );
+
+INV_STG7    
+ I33  ( .Vdd( VDD ), .In( net45 ), .GND( GND ), .Out( net045 ) );
+
+INV_STG9    
+ I34  ( .Vdd( VDD ), .In( net44 ), .GND( GND ), .Out( net044 ) );
+
+INV_STG11    
+ I35  ( .Vdd( VDD ), .In( net43 ), .GND( GND ), .Out( net043 ) );
 
 endmodule
 
