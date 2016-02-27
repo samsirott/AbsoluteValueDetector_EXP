@@ -1,6 +1,6 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 26 20:59:18 2016 " )
+ (Created " Feb 27 00:05:06 2016 " )
  (Cell  "\\ABS_VAL_DETECTOR_MASTER\\"
   (View  "schematic"
    (Inst "\\I19\\"
@@ -138,50 +138,50 @@
 	 ("\\pin#\\" "7")
 	 ("XY" "(1.000000,-0.500000)")
 	))
-   (Inst "\\I13\\"
+   (Inst "\\I25\\"
 	(Pr
-	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("partName" "MIRROR_CARRYOUT_ONLY_STG12")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
 	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
 	 ("\\pin#\\" "6")
 	 ("XY" "(2.000000,-12.500000)")
 	))
-   (Inst "\\I9\\"
+   (Inst "\\I21\\"
 	(Pr
-	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("partName" "MIRROR_CARRYOUT_ONLY_STG4")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
 	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
 	 ("\\pin#\\" "6")
-	 ("XY" "(2.000000,-9.500000)")
+	 ("XY" "(2.000000,-0.500000)")
 	))
-   (Inst "\\I7\\"
+   (Inst "\\I22\\"
 	(Pr
-	 ("partName" "MIRROR_CARRYOUT_ONLY")
-	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
-	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
-	 ("\\pin#\\" "6")
-	 ("XY" "(2.000000,-6.500000)")
-	))
-   (Inst "\\I4\\"
-	(Pr
-	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("partName" "MIRROR_CARRYOUT_ONLY_STG6")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
 	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
 	 ("\\pin#\\" "6")
 	 ("XY" "(2.000000,-3.500000)")
 	))
-   (Inst "\\I2\\"
+   (Inst "\\I23\\"
 	(Pr
-	 ("partName" "MIRROR_CARRYOUT_ONLY")
+	 ("partName" "MIRROR_CARRYOUT_ONLY_STG8")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
 	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
 	 ("\\pin#\\" "6")
-	 ("XY" "(2.000000,-0.500000)")
+	 ("XY" "(2.000000,-6.500000)")
+	))
+   (Inst "\\I24\\"
+	(Pr
+	 ("partName" "MIRROR_CARRYOUT_ONLY_STG10")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"Cin\" \"GND\" \"Th_i\" \"Vdd\" \"X_i\")")
+	 ("interfaceLastChanged" "Feb 19 21:37:56 2016")
+	 ("\\pin#\\" "6")
+	 ("XY" "(2.000000,-9.500000)")
 	))
   )
  )
