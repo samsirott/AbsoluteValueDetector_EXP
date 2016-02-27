@@ -20,34 +20,34 @@ input  X5;
 wire VDD;
 wire net34;
 wire X2;
+wire net043;
 wire net39;
 wire net36;
-wire net043;
-wire GND;
-wire T0;
 wire T1;
+wire GND;
 wire OUT;
+wire T0;
 wire net41;
 wire X0;
-wire T2;
 wire net40;
+wire T2;
 wire T4;
 wire net46;
 wire net046;
 wire net37;
 wire net51;
 wire net43;
-wire net44;
 wire net33;
+wire net44;
 wire net045;
 wire X3;
 wire X1;
 wire X4;
 wire net38;
-wire X5;
-wire net044;
-wire T3;
 wire net35;
+wire T3;
+wire net044;
+wire X5;
 wire net42;
 wire net45;
 
@@ -82,22 +82,19 @@ INV
  I0  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
 
 MUX    
- I12  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ) );
+ I12  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ), .SelBar( net51 ) );
 
 MUX    
- I8  ( .Vdd( VDD ), .Sel( X5 ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ) );
+ I8  ( .Vdd( VDD ), .Sel( X5 ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ), .SelBar( net51 ) );
 
 MUX    
- I6  ( .Vdd( VDD ), .Sel( X5 ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ) );
+ I6  ( .Vdd( VDD ), .Sel( X5 ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ), .SelBar( net51 ) );
 
 MUX    
- I3  ( .Vdd( VDD ), .Sel( X5 ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ) );
+ I3  ( .Vdd( VDD ), .Sel( X5 ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ), .SelBar( net51 ) );
 
 MUX    
- I1  ( .Vdd( VDD ), .Sel( X5 ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ) );
-
-MIRROR_CARRYOUT_ONLY    
- I2  ( .Cin( net51 ), .Vdd( VDD ), .X_i( net42 ), .GND( GND ), .Th_i( T0 ), .Out( net46 ) );
+ I1  ( .Vdd( VDD ), .Sel( X5 ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ), .SelBar( net51 ) );
 
 MIRROR_CARRYOUT_ONLY    
  I13  ( .Cin( net043 ), .Vdd( VDD ), .X_i( net38 ), .GND( GND ), .Th_i( T4 ), .Out( OUT ) );
@@ -110,6 +107,9 @@ MIRROR_CARRYOUT_ONLY
 
 MIRROR_CARRYOUT_ONLY    
  I4  ( .Cin( net046 ), .Vdd( VDD ), .X_i( net41 ), .GND( GND ), .Th_i( T1 ), .Out( net45 ) );
+
+MIRROR_CARRYOUT_ONLY    
+ I2  ( .Cin( net51 ), .Vdd( VDD ), .X_i( net42 ), .GND( GND ), .Th_i( T0 ), .Out( net46 ) );
 
 endmodule
 

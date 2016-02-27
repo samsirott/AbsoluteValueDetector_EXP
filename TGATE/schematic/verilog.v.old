@@ -2,25 +2,25 @@
 // Cadence Design Systems, Inc.
 
 module TGATE (
-Vdd,GND,In,Out,Sel1,Sel2 );
+Vdd,GND,In,Out,SelP,SelN );
 input  Vdd;
 input  GND;
 input  In;
 output  Out;
-input  Sel1;
-input  Sel2;
+input  SelP;
+input  SelN;
 wire Vdd;
+wire SelP;
 wire In;
-wire Sel2;
-wire Sel1;
+wire SelN;
 wire GND;
 wire Out;
 
 pmos1v    
- PM0  ( .S( In ), .G( Sel2 ), .B( Vdd ), .D( Out ) );
+ PM0  ( .S( In ), .G( SelP ), .B( Vdd ), .D( Out ) );
 
 nmos1v    
- NM0  ( .S( Out ), .G( Sel1 ), .B( GND ), .D( In ) );
+ NM0  ( .S( Out ), .G( SelN ), .B( GND ), .D( In ) );
 
 endmodule
 
