@@ -2,29 +2,29 @@
 // Cadence Design Systems, Inc.
 
 module MUX (
-In0,In1,GND,Sel,Out,Vdd );
+In0,In1,GND,Out,Vdd,SelBar );
 input  In0;
 input  In1;
 input  GND;
-input  Sel;
 output  Out;
 input  Vdd;
+input  SelBar;
 wire Vdd;
-wire Sel;
-wire In0;
+wire net07;
 wire In1;
+wire In0;
 wire GND;
 wire Out;
-wire net10;
+wire SelBar;
 
 TGATE    
- I5  ( .Vdd( Vdd ), .In( In0 ), .SelP( Sel ), .SelN( net10 ), .GND( GND ), .Out( Out ) );
+ I5  ( .Vdd( Vdd ), .In( In0 ), .SelP( net07 ), .SelN( SelBar ), .GND( GND ), .Out( Out ) );
 
 TGATE    
- I4  ( .Vdd( Vdd ), .In( In1 ), .SelP( net10 ), .SelN( Sel ), .GND( GND ), .Out( Out ) );
+ I4  ( .Vdd( Vdd ), .In( In1 ), .SelP( SelBar ), .SelN( net07 ), .GND( GND ), .Out( Out ) );
 
-INV_MUX    
- I6  ( .Vdd( Vdd ), .In( Sel ), .GND( GND ), .Out( net10 ) );
+INV_SEL    
+ I7  ( .Vdd( Vdd ), .In( SelBar ), .GND( GND ), .Out( net07 ) );
 
 endmodule
 

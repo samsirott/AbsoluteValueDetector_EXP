@@ -1,52 +1,52 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Mar  1 17:30:58 2016 " )
+ (Created " Mar  1 18:51:34 2016 " )
  (Cell  "\\ABS_VAL_DETECTOR_MASTER\\"
   (View  "schematic"
-   (Inst "\\I45\\"
+   (Inst "\\I41\\"
 	(Pr
 	 ("partName" "MUX")
 	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
-	 ("interfaceLastChanged" "Mar  1 17:24:49 2016")
-	 ("\\pin#\\" "7")
-	 ("XY" "(1.000000,-3.500000)")
-	))
-   (Inst "\\I44\\"
-	(Pr
-	 ("partName" "MUX")
-	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
-	 ("interfaceLastChanged" "Mar  1 17:24:49 2016")
-	 ("\\pin#\\" "7")
-	 ("XY" "(1.000000,-0.500000)")
-	))
-   (Inst "\\I43\\"
-	(Pr
-	 ("partName" "MUX")
-	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
-	 ("interfaceLastChanged" "Mar  1 17:24:49 2016")
-	 ("\\pin#\\" "7")
-	 ("XY" "(1.000000,-6.500000)")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"SelBar\" \"Vdd\")")
+	 ("interfaceLastChanged" "Mar  1 18:40:27 2016")
+	 ("\\pin#\\" "8")
+	 ("XY" "(1.000000,-12.500000)")
 	))
    (Inst "\\I42\\"
 	(Pr
 	 ("partName" "MUX")
 	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
-	 ("interfaceLastChanged" "Mar  1 17:24:49 2016")
-	 ("\\pin#\\" "7")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"SelBar\" \"Vdd\")")
+	 ("interfaceLastChanged" "Mar  1 18:40:27 2016")
+	 ("\\pin#\\" "8")
 	 ("XY" "(1.000000,-9.500000)")
 	))
-   (Inst "\\I41\\"
+   (Inst "\\I43\\"
 	(Pr
 	 ("partName" "MUX")
 	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"Sel\" \"Vdd\")")
-	 ("interfaceLastChanged" "Mar  1 17:24:49 2016")
-	 ("\\pin#\\" "7")
-	 ("XY" "(1.000000,-12.500000)")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"SelBar\" \"Vdd\")")
+	 ("interfaceLastChanged" "Mar  1 18:40:27 2016")
+	 ("\\pin#\\" "8")
+	 ("XY" "(1.000000,-6.500000)")
+	))
+   (Inst "\\I44\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"SelBar\" \"Vdd\")")
+	 ("interfaceLastChanged" "Mar  1 18:40:27 2016")
+	 ("\\pin#\\" "8")
+	 ("XY" "(1.000000,-0.500000)")
+	))
+   (Inst "\\I45\\"
+	(Pr
+	 ("partName" "MUX")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In0\" \"In1\" \"SelBar\" \"Vdd\")")
+	 ("interfaceLastChanged" "Mar  1 18:40:27 2016")
+	 ("\\pin#\\" "8")
+	 ("XY" "(1.000000,-3.500000)")
 	))
    (Inst "\\I25\\"
 	(Pr
@@ -102,23 +102,14 @@
 	 ("\\pin#\\" "4")
 	 ("XY" "(-1.000000,2.500000)")
 	))
-   (Inst "\\I40\\"
+   (Inst "\\I36\\"
 	(Pr
 	 ("partName" "INV")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
 	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
 	 ("\\pin#\\" "4")
-	 ("XY" "(-1.000000,-12.500000)")
-	))
-   (Inst "\\I39\\"
-	(Pr
-	 ("partName" "INV")
-	 ("vendorName" "")
-	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
-	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
-	 ("\\pin#\\" "4")
-	 ("XY" "(-1.000000,-9.500000)")
+	 ("XY" "(-1.000000,-0.500000)")
 	))
    (Inst "\\I38\\"
 	(Pr
@@ -138,14 +129,23 @@
 	 ("\\pin#\\" "4")
 	 ("XY" "(-1.000000,-3.500000)")
 	))
-   (Inst "\\I36\\"
+   (Inst "\\I39\\"
 	(Pr
 	 ("partName" "INV")
 	 ("vendorName" "")
 	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
 	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
 	 ("\\pin#\\" "4")
-	 ("XY" "(-1.000000,-0.500000)")
+	 ("XY" "(-1.000000,-9.500000)")
+	))
+   (Inst "\\I40\\"
+	(Pr
+	 ("partName" "INV")
+	 ("vendorName" "")
+	 ("portOrder" "(\"Out\" \"GND\" \"In\" \"Vdd\")")
+	 ("interfaceLastChanged" "Feb 19 21:03:41 2016")
+	 ("\\pin#\\" "4")
+	 ("XY" "(-1.000000,-12.500000)")
 	))
    (Inst "\\I32\\"
 	(Pr

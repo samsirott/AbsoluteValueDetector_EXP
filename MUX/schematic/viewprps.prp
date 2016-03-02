@@ -1,6 +1,6 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Mar  1 17:25:19 2016 " )
+ (Created " Mar  1 18:41:16 2016 " )
  (Cell  "\\MUX\\"
   (View  "schematic"
    (Inst "\\I5\\"
@@ -21,7 +21,7 @@
 	 ("\\pin#\\" "6")
 	 ("XY" "(-1.125000,0.625000)")
 	))
-   (Inst "\\I6\\"
+   (Inst "\\I7\\"
 	(Pr
 	 ("partName" "INV")
 	 ("vendorName" "")

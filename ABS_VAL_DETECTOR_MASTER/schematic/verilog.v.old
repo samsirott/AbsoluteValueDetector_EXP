@@ -19,14 +19,15 @@ input  T4;
 input  X5;
 wire VDD;
 wire net34;
+wire net041;
 wire X2;
-wire net39;
 wire net043;
+wire net39;
 wire net36;
-wire T1;
-wire GND;
-wire OUT;
 wire T0;
+wire GND;
+wire T1;
+wire OUT;
 wire net41;
 wire X0;
 wire net40;
@@ -35,42 +36,41 @@ wire T4;
 wire net46;
 wire net046;
 wire net37;
-wire net51;
 wire net43;
-wire net44;
 wire net33;
+wire net44;
 wire net045;
 wire X3;
 wire X1;
 wire X4;
 wire net38;
-wire net35;
-wire net044;
-wire X5;
 wire T3;
+wire net35;
+wire X5;
+wire net044;
 wire net42;
 wire net45;
 
 MUX    
- I45  ( .Vdd( VDD ), .Sel( X5 ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ) );
+ I41  ( .Vdd( VDD ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ), .SelBar( net041 ) );
 
 MUX    
- I44  ( .Vdd( VDD ), .Sel( X5 ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ) );
+ I42  ( .Vdd( VDD ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ), .SelBar( net041 ) );
 
 MUX    
- I43  ( .Vdd( VDD ), .Sel( X5 ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ) );
+ I43  ( .Vdd( VDD ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ), .SelBar( net041 ) );
 
 MUX    
- I42  ( .Vdd( VDD ), .Sel( X5 ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ) );
+ I44  ( .Vdd( VDD ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ), .SelBar( net041 ) );
 
 MUX    
- I41  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ) );
+ I45  ( .Vdd( VDD ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ), .SelBar( net041 ) );
 
 MIRROR_CARRYOUT_ONLY_STG12    
  I25  ( .Cin( net043 ), .Vdd( VDD ), .X_i( net38 ), .GND( GND ), .Th_i( T4 ), .Out( OUT ) );
 
 MIRROR_CARRYOUT_ONLY_STG4    
- I21  ( .Cin( net42 ), .Vdd( VDD ), .X_i( net51 ), .GND( GND ), .Th_i( T0 ), .Out( net46 ) );
+ I21  ( .Cin( net42 ), .Vdd( VDD ), .X_i( net041 ), .GND( GND ), .Th_i( T0 ), .Out( net46 ) );
 
 MIRROR_CARRYOUT_ONLY_STG6    
  I22  ( .Cin( net046 ), .Vdd( VDD ), .X_i( net41 ), .GND( GND ), .Th_i( T1 ), .Out( net45 ) );
@@ -82,13 +82,10 @@ MIRROR_CARRYOUT_ONLY_STG10
  I24  ( .Cin( net044 ), .Vdd( VDD ), .X_i( net39 ), .GND( GND ), .Th_i( T3 ), .Out( net43 ) );
 
 INV_STG2    
- I26  ( .Vdd( VDD ), .In( X5 ), .GND( GND ), .Out( net51 ) );
+ I26  ( .Vdd( VDD ), .In( X5 ), .GND( GND ), .Out( net041 ) );
 
 INV_MUX    
- I40  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
-
-INV_MUX    
- I39  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
+ I36  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
 
 INV_MUX    
  I38  ( .Vdd( VDD ), .In( X2 ), .GND( GND ), .Out( net35 ) );
@@ -97,7 +94,10 @@ INV_MUX
  I37  ( .Vdd( VDD ), .In( X1 ), .GND( GND ), .Out( net36 ) );
 
 INV_MUX    
- I36  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
+ I39  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
+
+INV_MUX    
+ I40  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
 
 INV_STG5    
  I32  ( .Vdd( VDD ), .In( net46 ), .GND( GND ), .Out( net046 ) );
