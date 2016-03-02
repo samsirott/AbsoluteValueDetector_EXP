@@ -12,13 +12,13 @@ input  Cin;
 wire Cin;
 wire Vdd;
 wire X_i;
-wire net21;
 wire net8;
+wire net21;
 wire GND;
-wire Th_i;
 wire net10;
-wire net20;
 wire Out;
+wire net20;
+wire Th_i;
 
 nmos1v    
  NM4  ( .S( net20 ), .G( X_i ), .B( GND ), .D( Out ) );
