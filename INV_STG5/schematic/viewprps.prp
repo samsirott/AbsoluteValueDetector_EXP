@@ -1,16 +1,16 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Feb 27 00:29:59 2016 " )
+ (Created " Mar  1 18:58:44 2016 " )
  (Cell  "\\INV_STG5\\"
   (View  "schematic"
    (Inst "\\NM0\\"
 	(Pr
-	 ("w" "415nM")
-	 ("ps" "975nM")
-	 ("pd" "975nM")
-	 ("as" "116.2f")
-	 ("ad" "116.2f")
-	 ("fw" "415nM")
+	 ("w" "275nM")
+	 ("ps" "835nM")
+	 ("pd" "835nM")
+	 ("as" "77f")
+	 ("ad" "77f")
+	 ("fw" "275nM")
 	 ("instNamePrefix" "NM")
 	 ("XY" "(-0.312500,-0.687500)")
 	 ("model" "gpdk090_nmos1v")
@@ -47,12 +47,12 @@
 	))
    (Inst "\\PM0\\"
 	(Pr
-	 ("w" "625nM")
-	 ("ps" "1.185uM")
-	 ("pd" "1.185uM")
-	 ("as" "175f")
-	 ("ad" "175f")
-	 ("fw" "625nM")
+	 ("w" "420nM")
+	 ("ps" "980nM")
+	 ("pd" "980nM")
+	 ("as" "117.6f")
+	 ("ad" "117.6f")
+	 ("fw" "420nM")
 	 ("instNamePrefix" "PM")
 	 ("XY" "(-0.312500,0.250000)")
 	 ("model" "gpdk090_pmos1v")
