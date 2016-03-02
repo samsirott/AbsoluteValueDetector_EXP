@@ -1,9 +1,9 @@
 (PropertyFile "1.0"
  (Creator " HDL Direct ver ver-date" )
- (Created " Mar  1 16:10:19 2016 " )
- (Cell  "\\TGATE\\"
+ (Created " Mar  1 16:11:05 2016 " )
+ (Cell  "\\INV_NON_CRITICAL_PATH\\"
   (View  "schematic"
-   (Inst "\\PM0\\"
+   (Inst "\\NM0\\"
 	(Pr
 	 ("w" "240nM")
 	 ("ps" "800nM")
@@ -11,9 +11,9 @@
 	 ("as" "67.2f")
 	 ("ad" "67.2f")
 	 ("fw" "240nM")
-	 ("instNamePrefix" "PM")
-	 ("XY" "(-0.062500,-0.812500)")
-	 ("model" "gpdk090_pmos1v")
+	 ("instNamePrefix" "NM")
+	 ("XY" "(-0.312500,-0.687500)")
+	 ("model" "gpdk090_nmos1v")
 	 ("m" "1")
 	 ("l" "100n")
 	 ("fingers" "1")
@@ -45,17 +45,17 @@
 	 ("dtemp" "")
 	 ("pasUpdateParamList" "l")
 	))
-   (Inst "\\NM0\\"
+   (Inst "\\PM0\\"
 	(Pr
-	 ("w" "240nM")
-	 ("ps" "800nM")
-	 ("pd" "800nM")
-	 ("as" "67.2f")
-	 ("ad" "67.2f")
-	 ("fw" "240nM")
-	 ("instNamePrefix" "NM")
-	 ("XY" "(-0.062500,1.062500)")
-	 ("model" "gpdk090_nmos1v")
+	 ("w" "365nM")
+	 ("ps" "925nM")
+	 ("pd" "925nM")
+	 ("as" "102.2f")
+	 ("ad" "102.2f")
+	 ("fw" "365nM")
+	 ("instNamePrefix" "PM")
+	 ("XY" "(-0.312500,0.250000)")
+	 ("model" "gpdk090_pmos1v")
 	 ("m" "1")
 	 ("l" "100n")
 	 ("fingers" "1")

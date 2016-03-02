@@ -20,13 +20,13 @@ input  X5;
 wire VDD;
 wire net34;
 wire X2;
+wire net043;
 wire net39;
 wire net36;
-wire net043;
+wire GND;
 wire T0;
 wire T1;
 wire OUT;
-wire GND;
 wire net41;
 wire X0;
 wire net40;
@@ -40,31 +40,31 @@ wire net43;
 wire net33;
 wire net44;
 wire net045;
-wire X1;
 wire X3;
+wire X1;
 wire X4;
 wire net38;
 wire net35;
+wire T3;
 wire net044;
 wire X5;
-wire T3;
 wire net42;
 wire net45;
 
 MUX    
- I12  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ), .SelBar( net51 ) );
+ I45  ( .Vdd( VDD ), .Sel( X5 ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ) );
 
 MUX    
- I8  ( .Vdd( VDD ), .Sel( X5 ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ), .SelBar( net51 ) );
+ I44  ( .Vdd( VDD ), .Sel( X5 ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ) );
 
 MUX    
- I6  ( .Vdd( VDD ), .Sel( X5 ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ), .SelBar( net51 ) );
+ I43  ( .Vdd( VDD ), .Sel( X5 ), .In1( X2 ), .In0( net35 ), .GND( GND ), .Out( net40 ) );
 
 MUX    
- I3  ( .Vdd( VDD ), .Sel( X5 ), .In1( X1 ), .In0( net36 ), .GND( GND ), .Out( net41 ), .SelBar( net51 ) );
+ I42  ( .Vdd( VDD ), .Sel( X5 ), .In1( X3 ), .In0( net34 ), .GND( GND ), .Out( net39 ) );
 
 MUX    
- I1  ( .Vdd( VDD ), .Sel( X5 ), .In1( X0 ), .In0( net37 ), .GND( GND ), .Out( net42 ), .SelBar( net51 ) );
+ I41  ( .Vdd( VDD ), .Sel( X5 ), .In1( X4 ), .In0( net33 ), .GND( GND ), .Out( net38 ) );
 
 MIRROR_CARRYOUT_ONLY_STG12    
  I25  ( .Cin( net043 ), .Vdd( VDD ), .X_i( net38 ), .GND( GND ), .Th_i( T4 ), .Out( OUT ) );
@@ -84,20 +84,20 @@ MIRROR_CARRYOUT_ONLY_STG10
 INV_STG2    
  I26  ( .Vdd( VDD ), .In( X5 ), .GND( GND ), .Out( net51 ) );
 
-INV_NON_CRITICAL_PATH    
- I31  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
+INV_MUX    
+ I40  ( .Vdd( VDD ), .In( X4 ), .GND( GND ), .Out( net33 ) );
 
-INV_NON_CRITICAL_PATH    
- I30  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
+INV_MUX    
+ I39  ( .Vdd( VDD ), .In( X3 ), .GND( GND ), .Out( net34 ) );
 
-INV_NON_CRITICAL_PATH    
- I29  ( .Vdd( VDD ), .In( X2 ), .GND( GND ), .Out( net35 ) );
+INV_MUX    
+ I38  ( .Vdd( VDD ), .In( X2 ), .GND( GND ), .Out( net35 ) );
 
-INV_NON_CRITICAL_PATH    
- I28  ( .Vdd( VDD ), .In( X1 ), .GND( GND ), .Out( net36 ) );
+INV_MUX    
+ I37  ( .Vdd( VDD ), .In( X1 ), .GND( GND ), .Out( net36 ) );
 
-INV_NON_CRITICAL_PATH    
- I27  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
+INV_MUX    
+ I36  ( .Vdd( VDD ), .In( X0 ), .GND( GND ), .Out( net37 ) );
 
 INV_STG5    
  I32  ( .Vdd( VDD ), .In( net46 ), .GND( GND ), .Out( net046 ) );

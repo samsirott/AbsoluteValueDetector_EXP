@@ -11,20 +11,20 @@ output  Out;
 input  Vdd;
 wire Vdd;
 wire Sel;
-wire In0;
 wire In1;
+wire In0;
 wire GND;
-wire net010;
 wire Out;
+wire net10;
 
 TGATE    
- I5  ( .Vdd( Vdd ), .In( In0 ), .Sel2( Sel ), .Sel1( net010 ), .GND( GND ), .Out( Out ) );
+ I5  ( .Vdd( Vdd ), .In( In0 ), .SelP( Sel ), .SelN( net10 ), .GND( GND ), .Out( Out ) );
 
 TGATE    
- I4  ( .Vdd( Vdd ), .In( In1 ), .Sel2( net010 ), .Sel1( Sel ), .GND( GND ), .Out( Out ) );
+ I4  ( .Vdd( Vdd ), .In( In1 ), .SelP( net10 ), .SelN( Sel ), .GND( GND ), .Out( Out ) );
 
-INV    
- I3  ( .Vdd( Vdd ), .In( Sel ), .GND( GND ), .Out( net010 ) );
+INV_MUX    
+ I6  ( .Vdd( Vdd ), .In( Sel ), .GND( GND ), .Out( net10 ) );
 
 endmodule
 
