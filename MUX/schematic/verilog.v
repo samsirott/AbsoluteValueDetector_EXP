@@ -11,17 +11,17 @@ input  Vdd;
 input  SelBar;
 wire Vdd;
 wire net07;
-wire In1;
 wire In0;
+wire In1;
 wire GND;
 wire Out;
 wire SelBar;
 
 TGATE    
- I5  ( .Vdd( Vdd ), .In( In0 ), .SelP( net07 ), .SelN( SelBar ), .GND( GND ), .Out( Out ) );
+ I9  ( .Vdd( Vdd ), .In( In0 ), .SelP( net07 ), .SelN( SelBar ), .GND( GND ), .Out( Out ) );
 
 TGATE    
- I4  ( .Vdd( Vdd ), .In( In1 ), .SelP( SelBar ), .SelN( net07 ), .GND( GND ), .Out( Out ) );
+ I8  ( .Vdd( Vdd ), .In( In1 ), .SelP( SelBar ), .SelN( net07 ), .GND( GND ), .Out( Out ) );
 
 INV_SEL    
  I7  ( .Vdd( Vdd ), .In( SelBar ), .GND( GND ), .Out( net07 ) );
